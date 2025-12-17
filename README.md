@@ -3,9 +3,6 @@ LeetCode solutions repository covering essential data structures and algorithms.
 
 ## 學習心得
 
-## leetcode 分類
-
-
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Tree
