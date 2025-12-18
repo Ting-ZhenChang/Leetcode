@@ -24,3 +24,8 @@
 	<li>The number of nodes in the tree is in the range <code>[0, 10<sup>4</sup>]</code>.</li>
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
+
+## 思路
+此題目的求binary tree最大深度，運用遞迴的方式求得深度。
+回傳左右子樹的最大深度，+1為目前節點位置。
+
