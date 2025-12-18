@@ -27,3 +27,7 @@
 	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
+
+## 思路
+直徑=左子樹高度+右子樹高度，於是用遞迴DFS設計，且如果左子樹+右子樹比目前的diameter還要大，就更新diameter。
+最後回傳 max(left,right)為左柚子數較高的一邊，+1為目前這個節點本身。
